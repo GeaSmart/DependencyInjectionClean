@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentManagement.Api", "src\RentManagement.Api\RentManagement.Api.csproj", "{C82B9414-4474-4A12-BFC1-DB72DD4F9ADC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{50328A53-3FD2-4819-8CDC-E780908DE07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentManagement.Infrastructure", "src\RentManagement.Infrastructure\RentManagement.Infrastructure.csproj", "{8AC12880-FA1B-4F41-8B96-A2C607593A6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentManagement.Application", "src\RentManagement.Application\RentManagement.Application.csproj", "{282D368B-1949-47EE-82B6-5440B444E941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentManagement.Domain", "src\RentManagement.Domain\RentManagement.Domain.csproj", "{315D12B0-097C-4806-A5C8-37DA23A05580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentManagement.Contracts", "src\RentManagement.Contracts\RentManagement.Contracts.csproj", "{775A89DA-5E19-4671-B113-2FC9EF7D231A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C82B9414-4474-4A12-BFC1-DB72DD4F9ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82B9414-4474-4A12-BFC1-DB72DD4F9ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82B9414-4474-4A12-BFC1-DB72DD4F9ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82B9414-4474-4A12-BFC1-DB72DD4F9ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC12880-FA1B-4F41-8B96-A2C607593A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC12880-FA1B-4F41-8B96-A2C607593A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC12880-FA1B-4F41-8B96-A2C607593A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC12880-FA1B-4F41-8B96-A2C607593A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282D368B-1949-47EE-82B6-5440B444E941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282D368B-1949-47EE-82B6-5440B444E941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282D368B-1949-47EE-82B6-5440B444E941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282D368B-1949-47EE-82B6-5440B444E941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315D12B0-097C-4806-A5C8-37DA23A05580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315D12B0-097C-4806-A5C8-37DA23A05580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315D12B0-097C-4806-A5C8-37DA23A05580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315D12B0-097C-4806-A5C8-37DA23A05580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{775A89DA-5E19-4671-B113-2FC9EF7D231A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775A89DA-5E19-4671-B113-2FC9EF7D231A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775A89DA-5E19-4671-B113-2FC9EF7D231A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775A89DA-5E19-4671-B113-2FC9EF7D231A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C82B9414-4474-4A12-BFC1-DB72DD4F9ADC} = {50328A53-3FD2-4819-8CDC-E780908DE07A}
+		{8AC12880-FA1B-4F41-8B96-A2C607593A6F} = {50328A53-3FD2-4819-8CDC-E780908DE07A}
+		{282D368B-1949-47EE-82B6-5440B444E941} = {50328A53-3FD2-4819-8CDC-E780908DE07A}
+		{315D12B0-097C-4806-A5C8-37DA23A05580} = {50328A53-3FD2-4819-8CDC-E780908DE07A}
+		{775A89DA-5E19-4671-B113-2FC9EF7D231A} = {50328A53-3FD2-4819-8CDC-E780908DE07A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {839E185F-ED5D-45D5-AF3C-2919BA0DE313}
+	EndGlobalSection
+EndGlobal
